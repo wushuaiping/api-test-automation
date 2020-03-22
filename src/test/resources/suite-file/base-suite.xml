@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="base-test">
+    <listeners>
+        <listener class-name="io.idwangmo.testing.config.TestListener"/>
+    </listeners>
+    <test name="基础测试">
+        <classes>
+            <class name="io.idwangmo.testing.base.YamlTest"/>
+            <class name="io.idwangmo.testing.base.JiraTest"/>
+        </classes>
+    </test>
+</suite>

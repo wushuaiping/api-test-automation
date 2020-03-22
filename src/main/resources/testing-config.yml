@@ -1,0 +1,11 @@
+environment: rc
+creams:
+  clientID:
+  username:
+  password:
+jira:
+  username:
+  password:
+redis:
+  host: 127.0.0.1
+  port: 6379
